@@ -1,0 +1,186 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+	#about1 {
+		padding-top: 30px;
+		height: 250px;
+		background-color: transparent;
+		background-image: url(images/aboutbg.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 0px 0px;
+		background-attachment: scroll;
+	}
+
+	#avatar {
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+	}
+
+	#about-title {
+		font-size: 25px;
+		line-height: 25px;
+	}
+
+	#about2-title {
+		font-size: 25px;
+	}
+
+	#about-name {
+		font-size: 9px;
+	}
+
+	#about2 {
+		border-top: #292b2c solid;
+	}
+
+	#gallery-image {
+		width: 500px;
+		height: 350px;
+	}
+
+	#galleryh5 {
+		font-size: 15px;
+		line-height: 2px;
+	}
+
+	#galleryp {
+		font-size: 10px;
+		font-style: italic;
+	}
+
+	#character {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	#cardimage {
+		height: 350px;
+		border-radius: 2%;
+	}
+
+	#detailscardimage {
+		width: 100px;
+		height: 80px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#avatar {
+		height: 250px;
+		width: 250px;
+		border-radius: 50%;
+		border: 2px solid goldenrod;
+	}
+
+	#about1 {
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: transparent;
+		background-image: url(images/aboutbg.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 0px -90px;
+		background-attachment: scroll;
+	}
+
+	#about-title {
+		line-height: 25px;
+		padding-top: 20px;
+	}
+
+	#about2-title {
+		line-height: 25px;
+		padding-top: 20px;
+	}
+
+	#gallery-image {
+		width: 800px;
+		height: 500px;
+	}
+
+	#galleryh5 {
+		line-height: 5px;
+	}
+
+	#galleryp {
+		font-style: italic;
+	}
+
+	#character {
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+
+	#cardimage {
+		height: 168px;
+		border-radius: 2%;
+	}
+}
+
+#navbar {
+	border-bottom: 1px solid black;
+}
+
+a:hover {
+  opacity: 95%;
+  border-bottom: 1px solid #F3DE54;
+}
+
+#aboutcard,#character {
+	background-image: radial-gradient(#9FA6B2, #332D2D);
+}
+
+#aboutcard:hover,#character:hover {
+	transform: scale(1.02);
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	padding: 5vh 0;
+	background-image: radial-gradient(#9FA6B2, #332D2D);
+}
+
+#div-logo {
+	float: right;
+}
+
+#logo {
+	height: 40px;
+	width: 100%;
+}
+
+h2 {
+	color: lightgray;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.tools {
+	color: white;
+	border: 5px solid #f2f2f2;
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+}
+
+#basicinfo {
+	border-bottom: 1px solid lightgray;
+}
+
